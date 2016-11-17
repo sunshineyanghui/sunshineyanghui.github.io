@@ -1,1 +1,14 @@
 *{  margin: 0; padding: 0;}
+ul li{ list-style: none; }
+a{ text-decoration: none; }
+.clearfix:before,.clearfix:after{ display: block; content: "";}
+.clearfix:after{ clear: both;}
+.clearfix{zoom: 1;}
+header{}
+.header-top{ width: 1000px;  margin: 0 auto; font-family: Arial; }
+.logo{ width: 260px; float: left;}
+nav{ width: 430px; float: right; line-height: 60px; }
+nav a{ color:#212121; }
+.header-top ul li{ float: left; margin-left: 20px;}
+.banner{background: url(../images/banner.jpg) no-repeat center; height: 265px;}
+
