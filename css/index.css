@@ -9,6 +9,6 @@ header{}
 .logo{ width: 260px; float: left;}
 nav{ width: 430px; float: right; line-height: 60px; }
 nav a{ color:#212121; }
-.header-top ul li{ float: left; margin-left: 20px;}
+.header-top ul li{ float: left; margin-left: 40px;}
 .banner{background: url(../images/banner.jpg) no-repeat center; height: 265px;}
 
