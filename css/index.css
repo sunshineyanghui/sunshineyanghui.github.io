@@ -4,8 +4,9 @@ a{ text-decoration: none; }
 .clearfix:before,.clearfix:after{ display: block; content: "";}
 .clearfix:after{ clear: both;}
 .clearfix{zoom: 1;}
+
 header{}
-.header-top{ width: 1000px;  margin: 0 auto; font-family: Arial; }
+.header-top{ width: 1000px;  margin: 0 auto; }
 .logo{ width: 260px; float: left;}
 nav{ width: 430px; float: right; line-height: 60px; }
 nav a{ color:#212121; }
@@ -14,12 +15,21 @@ nav a{ color:#212121; }
 .banner-inner{ width: 1000px; margin: 0 auto;}
 .banner-inner p{ color: #fff; font-size: 40px; font-family: Arial; line-height: 265px; text-shadow: 1px 0px 5px #000;}
 .animate{-webkit-animation-duration:2s;animation-duration:2s;}
-.main{ width: 1000px; margin: 0 auto; margin-top: 40px; font-family: Arial; }
-.main ul li{ float: left; margin-right:20px; padding: 10px; background-color: #ccc; }
-.main ul li img{ border-radius: 5px; display: block; }
-.main ul li p{ color: #212121;}
-.main ul li:nth-child(3){ margin-right: 0;  }
+.main{ width: 1000px; margin: 0 auto; margin-top: 40px;}
+.main ul{ }
+.main ul li{ float: left; margin-right:25px;box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;margin-bottom: 20px;}
+.main ul li img{display: block; }
+.main ul li p{ color: #212121; padding: 10px;text-align: center;}
+
 
 footer{ background-color: #032e13; height: 90px; margin-top: 40px; font-family: Arial;}
 footer p{ color: #ccc; text-align: center; line-height: 90px; font-size: 14px; }
-
+@media all and (max-width:768px){
+  .header-top{ width:100%;}
+  .banner-inner{ width: 100%;}
+  .main{ width:95%; margin: 0 auto; margin-top: 40px; }
+  .main ul{ margin-bottom: 20px;}
+  .main ul li{ width: 49%; float: left;margin-right:6px;}
+  .main ul li img{width:100%; }
+  .main ul li p{color: #212121; padding: 10px;text-align: center;}
+}
