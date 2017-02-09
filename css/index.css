@@ -20,7 +20,7 @@ nav a{ color:#212121; }
 .main ul li{ float: left; width: 30%; box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;margin-bottom: 20px; margin-left: 1.5%; margin-right: 1.5%;}
 .main ul li img{display: block; width: 100%;}
 .main ul li p{ color: #212121; padding: 10px;text-align: center;}
-
+.font{ display: none; }
 
 footer{ background-color: #032e13; height: 90px; margin-top: 40px; font-family: Arial;}
 footer p{ color: #ccc; text-align: center; line-height: 90px; font-size: 14px; }
@@ -32,6 +32,7 @@ footer p{ color: #ccc; text-align: center; line-height: 90px; font-size: 14px; }
   .main ul li{ width: 48%; float: left;margin-right:1%; margin-left: 1%;}
   .main ul li img{width:100%; }
   .main ul li p{color: #212121; padding: 10px;text-align: center;}
+  .font{ display: none; }
 }
 @media all and (max-width:414px){
   .header-top{ width:100%;}
@@ -41,4 +42,10 @@ footer p{ color: #ccc; text-align: center; line-height: 90px; font-size: 14px; }
   .main ul li{ width: 98%; float: left;margin-right:1%; margin-left: 1%;}
   .main ul li img{width:100%; }
   .main ul li p{color: #212121; padding: 10px;text-align: center;}
+  .banner-inner p{font-size: 20px;}
+  .font{ display:block;text-align: right; line-height: 60px; padding-right: 5px; font-size: 22px; }
+  nav{  line-height: 60px; float: none; display: none; }
+  nav a{}
+  .header-top ul li{ float: none; text-align: center; margin-left:0;}
+
 }
