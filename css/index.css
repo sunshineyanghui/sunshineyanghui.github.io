@@ -23,7 +23,7 @@ nav a{ color:#212121; }
 .font{ display: none; }
 
 footer{ background-color: #032e13; height: 90px; margin-top: 40px; font-family: Arial;}
-footer p{ color: #ccc; text-align: center; line-height: 90px; font-size: 14px; }
+footer p{ margin: 0; color: #ccc; text-align: center; line-height: 90px; font-size: 14px; }
 @media all and (max-width:768px){
   .header-top{ width:100%;}
   .banner-inner{ width: 100%;}
